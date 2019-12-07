@@ -1,0 +1,13 @@
+[package]
+name = "sigset"
+version = "0.1.0"
+authors = ["Sean Lynch <sean@lynches.ca>"]
+edition = "2018"
+
+[features]
+std = []
+
+default = [ "std" ]
+
+[dependencies]
+libc = "0.2"
